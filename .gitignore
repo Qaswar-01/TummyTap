@@ -29,3 +29,4 @@ server/uploads/*
 *.ntvs*
 *.njsproj
 *.sln
+.vercel
