@@ -1,0 +1,681 @@
+{
+  "products": [
+    {
+      "_id": "688467b13b27aa5353a467f7",
+      "name": "Chocolate Cake",
+      "category": "desserts",
+      "price": 6.99,
+      "image": "product-1753507761641-222243024.jpg",
+      "description": "Rich and moist chocolate cake with chocolate frosting",
+      "createdAt": "2025-07-26T05:29:21.653Z",
+      "updatedAt": "2025-07-26T05:29:21.653Z",
+      "__v": 0
+    },
+    {
+      "_id": "688467b13b27aa5353a467fa",
+      "name": "Chocolate Chip Cookies",
+      "category": "desserts",
+      "price": 3.99,
+      "image": "product-1753507761662-844880255.jpg",
+      "description": "Freshly baked chocolate chip cookies",
+      "createdAt": "2025-07-26T05:29:21.665Z",
+      "updatedAt": "2025-07-26T05:29:21.665Z",
+      "__v": 0
+    },
+    {
+      "_id": "688467b13b27aa5353a467fd",
+      "name": "Vanilla Cupcake",
+      "category": "desserts",
+      "price": 2.99,
+      "image": "product-1753507761671-537553002.jpg",
+      "description": "Fluffy vanilla cupcake with buttercream frosting",
+      "createdAt": "2025-07-26T05:29:21.673Z",
+      "updatedAt": "2025-07-26T05:29:21.673Z",
+      "__v": 0
+    },
+    {
+      "_id": "688467b13b27aa5353a46800",
+      "name": "Glazed Donut",
+      "category": "desserts",
+      "price": 1.99,
+      "image": "product-1753507761677-907199350.jpg",
+      "description": "Classic glazed donut, fresh and sweet",
+      "createdAt": "2025-07-26T05:29:21.686Z",
+      "updatedAt": "2025-07-26T05:29:21.686Z",
+      "__v": 0
+    },
+    {
+      "_id": "688467b13b27aa5353a46803",
+      "name": "Vanilla Ice Cream",
+      "category": "desserts",
+      "price": 4.99,
+      "image": "product-1753507761692-511337625.jpg",
+      "description": "Creamy vanilla ice cream made with real vanilla beans",
+      "createdAt": "2025-07-26T05:29:21.695Z",
+      "updatedAt": "2025-07-26T05:29:21.695Z",
+      "__v": 0
+    },
+    {
+      "_id": "688467b13b27aa5353a46806",
+      "name": "Cola Drink",
+      "category": "drinks",
+      "price": 2.99,
+      "image": "product-1753507761700-315240291.jpg",
+      "description": "Refreshing cola drink served ice cold",
+      "createdAt": "2025-07-26T05:29:21.703Z",
+      "updatedAt": "2025-07-26T05:29:21.703Z",
+      "__v": 0
+    },
+    {
+      "_id": "688467b13b27aa5353a46809",
+      "name": "Iced Tea",
+      "category": "drinks",
+      "price": 3.49,
+      "image": "product-1753507761708-945517197.jpg",
+      "description": "Refreshing iced tea with a hint of lemon",
+      "createdAt": "2025-07-26T05:29:21.710Z",
+      "updatedAt": "2025-07-26T05:29:21.710Z",
+      "__v": 0
+    },
+    {
+      "_id": "688467b13b27aa5353a4680c",
+      "name": "Fresh Lemonade",
+      "category": "drinks",
+      "price": 3.99,
+      "image": "product-1753507761713-982777875.jpg",
+      "description": "Fresh squeezed lemonade, perfectly sweet and tart",
+      "createdAt": "2025-07-26T05:29:21.714Z",
+      "updatedAt": "2025-07-26T05:29:21.714Z",
+      "__v": 0
+    },
+    {
+      "_id": "688467b13b27aa5353a4680f",
+      "name": "Chocolate Milkshake",
+      "category": "drinks",
+      "price": 5.99,
+      "image": "product-1753507761722-959415076.jpg",
+      "description": "Thick and creamy chocolate milkshake",
+      "createdAt": "2025-07-26T05:29:21.725Z",
+      "updatedAt": "2025-07-26T05:29:21.725Z",
+      "__v": 0
+    },
+    {
+      "_id": "688467b13b27aa5353a46812",
+      "name": "Fresh Orange Juice",
+      "category": "drinks",
+      "price": 4.49,
+      "image": "product-1753507761730-965073344.jpg",
+      "description": "Fresh squeezed orange juice, no pulp",
+      "createdAt": "2025-07-26T05:29:21.731Z",
+      "updatedAt": "2025-07-26T05:29:21.731Z",
+      "__v": 0
+    },
+    {
+      "_id": "688467b13b27aa5353a46815",
+      "name": "Classic Burger",
+      "category": "fast food",
+      "price": 12.99,
+      "image": "product-1753507761739-959036823.jpg",
+      "description": "Juicy beef patty with fresh lettuce, tomato, and our special sauce",
+      "createdAt": "2025-07-26T05:29:21.741Z",
+      "updatedAt": "2025-07-26T05:29:21.741Z",
+      "__v": 0
+    },
+    {
+      "_id": "688467b13b27aa5353a46818",
+      "name": "French Fries",
+      "category": "fast food",
+      "price": 4.99,
+      "image": "product-1753507761746-159861346.jpg",
+      "description": "Crispy golden french fries seasoned to perfection",
+      "createdAt": "2025-07-26T05:29:21.748Z",
+      "updatedAt": "2025-07-26T05:29:21.748Z",
+      "__v": 0
+    },
+    {
+      "_id": "688467b13b27aa5353a4681b",
+      "name": "Hot Dog",
+      "category": "fast food",
+      "price": 8.99,
+      "image": "product-1753507761756-671255882.jpg",
+      "description": "All-beef hot dog with your choice of toppings",
+      "createdAt": "2025-07-26T05:29:21.758Z",
+      "updatedAt": "2025-07-26T05:29:21.758Z",
+      "__v": 0
+    },
+    {
+      "_id": "688467b13b27aa5353a4681e",
+      "name": "Chicken Nuggets",
+      "category": "fast food",
+      "price": 9.99,
+      "image": "product-1753507761764-464430327.jpg",
+      "description": "Tender chicken nuggets with crispy coating",
+      "createdAt": "2025-07-26T05:29:21.770Z",
+      "updatedAt": "2025-07-26T05:29:21.770Z",
+      "__v": 0
+    },
+    {
+      "_id": "688467b13b27aa5353a46821",
+      "name": "Margherita Pizza",
+      "category": "fast food",
+      "price": 15.99,
+      "image": "product-1753507761775-710937430.jpg",
+      "description": "Classic margherita pizza with fresh mozzarella and basil",
+      "createdAt": "2025-07-26T05:29:21.779Z",
+      "updatedAt": "2025-07-26T05:29:21.779Z",
+      "__v": 0
+    },
+    {
+      "_id": "688467b13b27aa5353a46824",
+      "name": "Chicken Biryani",
+      "category": "main dish",
+      "price": 18.99,
+      "image": "product-1753507761786-893720407.jpg",
+      "description": "Aromatic basmati rice with tender chicken and exotic spices",
+      "createdAt": "2025-07-26T05:29:21.789Z",
+      "updatedAt": "2025-07-26T05:29:21.789Z",
+      "__v": 0
+    },
+    {
+      "_id": "688467b13b27aa5353a46827",
+      "name": "Grilled Chicken",
+      "category": "main dish",
+      "price": 16.99,
+      "image": "product-1753507761795-975568850.jpg",
+      "description": "Perfectly grilled chicken breast with herbs and spices",
+      "createdAt": "2025-07-26T05:29:21.797Z",
+      "updatedAt": "2025-07-26T05:29:21.797Z",
+      "__v": 0
+    },
+    {
+      "_id": "688467b13b27aa5353a4682a",
+      "name": "Beef Lasagna",
+      "category": "main dish",
+      "price": 14.99,
+      "image": "product-1753507761804-256710453.jpg",
+      "description": "Layers of pasta with rich meat sauce and melted cheese",
+      "createdAt": "2025-07-26T05:29:21.807Z",
+      "updatedAt": "2025-07-26T05:29:21.807Z",
+      "__v": 0
+    },
+    {
+      "_id": "688467b13b27aa5353a4682d",
+      "name": "Spaghetti Pasta",
+      "category": "main dish",
+      "price": 13.99,
+      "image": "product-1753507761812-509161142.jpg",
+      "description": "Al dente spaghetti with our signature tomato sauce",
+      "createdAt": "2025-07-26T05:29:21.814Z",
+      "updatedAt": "2025-07-26T05:29:21.814Z",
+      "__v": 0
+    },
+    {
+      "_id": "688467b13b27aa5353a46830",
+      "name": "Grilled Steak",
+      "category": "main dish",
+      "price": 24.99,
+      "image": "product-1753507761822-462759222.jpg",
+      "description": "Premium cut steak grilled to your preference",
+      "createdAt": "2025-07-26T05:29:21.825Z",
+      "updatedAt": "2025-07-26T05:29:21.825Z",
+      "__v": 0
+    }
+  ],
+  "users": [
+    {
+      "_id": "68843ddc15be7ac046937304",
+      "name": "Admin User",
+      "email": "admin@demo.com",
+      "number": "1234567890",
+      "password": "$2a$12$4rOspG/APrDbava9LeitgeoFFuieFuX6.DPaw33W52gbzqTm2y.sW",
+      "address": "123 Admin Street, Admin City",
+      "isAdmin": true,
+      "createdAt": "2025-07-26T02:30:52.631Z",
+      "updatedAt": "2025-07-26T06:52:43.199Z",
+      "__v": 0,
+      "isActive": true
+    },
+    {
+      "isActive": true,
+      "_id": "68843ddc15be7ac046937307",
+      "name": "Demo User",
+      "email": "user@demo.com",
+      "number": "0987654321",
+      "password": "$2a$12$MNiqQPdToCVbY5NrQTrT2.g/.ngU4nowpb7G4RZeU1zMfgcECJ2sq",
+      "address": "456 User Avenue, User City",
+      "isAdmin": false,
+      "createdAt": "2025-07-26T02:30:52.994Z",
+      "updatedAt": "2025-07-26T02:30:52.994Z",
+      "__v": 0
+    }
+  ],
+  "orders": [
+    {
+      "isGuestOrder": false,
+      "_id": "68846b8ccc265dbca17c8113",
+      "user": "68843ddc15be7ac046937307",
+      "name": "Demo User",
+      "email": "user@demo.com",
+      "number": "0987654321",
+      "address": "Muzaffargarh",
+      "paymentMethod": "cash on delivery",
+      "items": [
+        {
+          "product": "688467b13b27aa5353a46821",
+          "name": "Margherita Pizza",
+          "price": 15.99,
+          "quantity": 1,
+          "image": "product-1753507761775-710937430.jpg",
+          "_id": "68846b8ccc265dbca17c8114"
+        }
+      ],
+      "totalPrice": 15.99,
+      "status": "confirmed",
+      "paymentStatus": "pending",
+      "createdAt": "2025-07-26T05:45:48.410Z",
+      "updatedAt": "2025-07-26T05:46:46.298Z",
+      "__v": 0
+    },
+    {
+      "_id": "688473bb549f64a62d007998",
+      "user": null,
+      "isGuestOrder": true,
+      "name": "qaswar",
+      "email": "admin@tutormatch.com",
+      "number": "0987654321",
+      "address": "mgarh",
+      "paymentMethod": "paypal",
+      "items": [
+        {
+          "product": "688467b13b27aa5353a46830",
+          "name": "Grilled Steak",
+          "price": 24.99,
+          "quantity": 1,
+          "image": "product-1753507761822-462759222.jpg",
+          "_id": "688473bb549f64a62d007999"
+        }
+      ],
+      "totalPrice": 24.99,
+      "status": "confirmed",
+      "paymentStatus": "completed",
+      "createdAt": "2025-07-26T06:20:43.815Z",
+      "updatedAt": "2025-07-26T06:20:43.815Z",
+      "__v": 0
+    },
+    {
+      "_id": "68847d4dac5259bf22587fe6",
+      "user": "68843ddc15be7ac046937304",
+      "isGuestOrder": false,
+      "name": "Admin User",
+      "email": "admin@demo.com",
+      "number": "1234567890",
+      "address": "123 Admin Street, Admin City",
+      "paymentMethod": "credit card",
+      "items": [
+        {
+          "product": "688467b13b27aa5353a46830",
+          "name": "Grilled Steak",
+          "price": 24.99,
+          "quantity": 1,
+          "image": "product-1753507761822-462759222.jpg",
+          "_id": "68847d4dac5259bf22587fe7"
+        }
+      ],
+      "totalPrice": 24.99,
+      "status": "pending",
+      "paymentStatus": "pending",
+      "createdAt": "2025-07-26T07:01:33.730Z",
+      "updatedAt": "2025-07-26T07:01:33.730Z",
+      "__v": 0
+    }
+  ],
+  "activityLogs": [
+    {
+      "_id": "68845312392b02ba8fcefb85",
+      "user": "68843ddc15be7ac046937304",
+      "action": "initialize",
+      "resource": "settings",
+      "resourceId": null,
+      "details": {
+        "createdCount": 24
+      },
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+      "createdAt": "2025-07-26T04:01:22.408Z",
+      "updatedAt": "2025-07-26T04:01:22.408Z",
+      "__v": 0
+    },
+    {
+      "_id": "688462245fa6cb024dc5aaf1",
+      "user": "68843ddc15be7ac046937304",
+      "action": "clear_cache",
+      "resource": "system",
+      "resourceId": null,
+      "details": {
+        "deletedLogs": 0
+      },
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+      "createdAt": "2025-07-26T05:05:40.650Z",
+      "updatedAt": "2025-07-26T05:05:40.650Z",
+      "__v": 0
+    },
+    {
+      "_id": "688462315fa6cb024dc5ab2a",
+      "user": "68843ddc15be7ac046937304",
+      "action": "enable_maintenance",
+      "resource": "system",
+      "resourceId": null,
+      "details": {
+        "maintenanceMode": true
+      },
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+      "createdAt": "2025-07-26T05:05:53.203Z",
+      "updatedAt": "2025-07-26T05:05:53.203Z",
+      "__v": 0
+    },
+    {
+      "_id": "688462335fa6cb024dc5ab2e",
+      "user": "68843ddc15be7ac046937304",
+      "action": "disable_maintenance",
+      "resource": "system",
+      "resourceId": null,
+      "details": {
+        "maintenanceMode": false
+      },
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+      "createdAt": "2025-07-26T05:05:55.854Z",
+      "updatedAt": "2025-07-26T05:05:55.854Z",
+      "__v": 0
+    },
+    {
+      "_id": "688462415fa6cb024dc5acbe",
+      "user": "68843ddc15be7ac046937304",
+      "action": "clear_cache",
+      "resource": "system",
+      "resourceId": null,
+      "details": {
+        "deletedLogs": 0
+      },
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+      "createdAt": "2025-07-26T05:06:09.328Z",
+      "updatedAt": "2025-07-26T05:06:09.328Z",
+      "__v": 0
+    }
+  ],
+  "carts": [],
+  "messages": [],
+  "settings": [
+    {
+      "_id": "68845312392b02ba8fcefb3e",
+      "key": "site_name",
+      "value": "Food Ordering System",
+      "type": "string",
+      "description": "Website name",
+      "category": "general",
+      "createdAt": "2025-07-26T04:01:22.306Z",
+      "updatedAt": "2025-07-26T04:01:22.306Z",
+      "__v": 0
+    },
+    {
+      "_id": "68845312392b02ba8fcefb41",
+      "key": "site_description",
+      "value": "Best food ordering platform",
+      "type": "string",
+      "description": "Website description",
+      "category": "general",
+      "createdAt": "2025-07-26T04:01:22.320Z",
+      "updatedAt": "2025-07-26T04:01:22.320Z",
+      "__v": 0
+    },
+    {
+      "_id": "68845312392b02ba8fcefb44",
+      "key": "contact_email",
+      "value": "admin@foodorder.com",
+      "type": "string",
+      "description": "Contact email address",
+      "category": "general",
+      "createdAt": "2025-07-26T04:01:22.325Z",
+      "updatedAt": "2025-07-26T04:01:22.325Z",
+      "__v": 0
+    },
+    {
+      "_id": "68845312392b02ba8fcefb47",
+      "key": "contact_phone",
+      "value": "+1234567890",
+      "type": "string",
+      "description": "Contact phone number",
+      "category": "general",
+      "createdAt": "2025-07-26T04:01:22.330Z",
+      "updatedAt": "2025-07-26T04:01:22.330Z",
+      "__v": 0
+    },
+    {
+      "_id": "68845312392b02ba8fcefb4a",
+      "key": "maintenance_mode",
+      "value": false,
+      "type": "boolean",
+      "description": "System maintenance mode",
+      "category": "general",
+      "createdAt": "2025-07-26T04:01:22.334Z",
+      "updatedAt": "2025-07-26T05:05:55.840Z",
+      "__v": 0
+    },
+    {
+      "_id": "68845312392b02ba8fcefb4d",
+      "key": "min_order_amount",
+      "value": 10,
+      "type": "number",
+      "description": "Minimum order amount",
+      "category": "orders",
+      "createdAt": "2025-07-26T04:01:22.338Z",
+      "updatedAt": "2025-07-26T04:01:22.338Z",
+      "__v": 0
+    },
+    {
+      "_id": "68845312392b02ba8fcefb50",
+      "key": "delivery_fee",
+      "value": 5,
+      "type": "number",
+      "description": "Delivery fee",
+      "category": "orders",
+      "createdAt": "2025-07-26T04:01:22.342Z",
+      "updatedAt": "2025-07-26T04:01:22.342Z",
+      "__v": 0
+    },
+    {
+      "_id": "68845312392b02ba8fcefb53",
+      "key": "free_delivery_threshold",
+      "value": 50,
+      "type": "number",
+      "description": "Free delivery threshold",
+      "category": "orders",
+      "createdAt": "2025-07-26T04:01:22.346Z",
+      "updatedAt": "2025-07-26T04:01:22.346Z",
+      "__v": 0
+    },
+    {
+      "_id": "68845312392b02ba8fcefb56",
+      "key": "order_timeout",
+      "value": 30,
+      "type": "number",
+      "description": "Order timeout in minutes",
+      "category": "orders",
+      "createdAt": "2025-07-26T04:01:22.350Z",
+      "updatedAt": "2025-07-26T04:01:22.350Z",
+      "__v": 0
+    },
+    {
+      "_id": "68845312392b02ba8fcefb59",
+      "key": "payment_methods",
+      "value": [
+        "cash",
+        "card",
+        "paypal"
+      ],
+      "type": "array",
+      "description": "Available payment methods",
+      "category": "payment",
+      "createdAt": "2025-07-26T04:01:22.354Z",
+      "updatedAt": "2025-07-26T04:01:22.354Z",
+      "__v": 0
+    },
+    {
+      "_id": "68845312392b02ba8fcefb5c",
+      "key": "currency",
+      "value": "USD",
+      "type": "string",
+      "description": "Default currency",
+      "category": "payment",
+      "createdAt": "2025-07-26T04:01:22.358Z",
+      "updatedAt": "2025-07-26T04:01:22.358Z",
+      "__v": 0
+    },
+    {
+      "_id": "68845312392b02ba8fcefb5f",
+      "key": "tax_rate",
+      "value": 8.5,
+      "type": "number",
+      "description": "Tax rate percentage",
+      "category": "payment",
+      "createdAt": "2025-07-26T04:01:22.362Z",
+      "updatedAt": "2025-07-26T04:01:22.362Z",
+      "__v": 0
+    },
+    {
+      "_id": "68845312392b02ba8fcefb62",
+      "key": "smtp_host",
+      "value": "smtp.gmail.com",
+      "type": "string",
+      "description": "SMTP host",
+      "category": "email",
+      "createdAt": "2025-07-26T04:01:22.366Z",
+      "updatedAt": "2025-07-26T04:01:22.366Z",
+      "__v": 0
+    },
+    {
+      "_id": "68845312392b02ba8fcefb65",
+      "key": "smtp_port",
+      "value": 587,
+      "type": "number",
+      "description": "SMTP port",
+      "category": "email",
+      "createdAt": "2025-07-26T04:01:22.369Z",
+      "updatedAt": "2025-07-26T04:01:22.369Z",
+      "__v": 0
+    },
+    {
+      "_id": "68845312392b02ba8fcefb68",
+      "key": "smtp_username",
+      "value": "",
+      "type": "string",
+      "description": "SMTP username",
+      "category": "email",
+      "createdAt": "2025-07-26T04:01:22.372Z",
+      "updatedAt": "2025-07-26T04:01:22.372Z",
+      "__v": 0
+    },
+    {
+      "_id": "68845312392b02ba8fcefb6b",
+      "key": "smtp_password",
+      "value": "",
+      "type": "string",
+      "description": "SMTP password",
+      "category": "email",
+      "createdAt": "2025-07-26T04:01:22.376Z",
+      "updatedAt": "2025-07-26T04:01:22.376Z",
+      "__v": 0
+    },
+    {
+      "_id": "68845312392b02ba8fcefb6e",
+      "key": "email_from",
+      "value": "noreply@foodorder.com",
+      "type": "string",
+      "description": "From email address",
+      "category": "email",
+      "createdAt": "2025-07-26T04:01:22.379Z",
+      "updatedAt": "2025-07-26T04:01:22.379Z",
+      "__v": 0
+    },
+    {
+      "_id": "68845312392b02ba8fcefb71",
+      "key": "max_login_attempts",
+      "value": 5,
+      "type": "number",
+      "description": "Maximum login attempts",
+      "category": "security",
+      "createdAt": "2025-07-26T04:01:22.383Z",
+      "updatedAt": "2025-07-26T04:01:22.383Z",
+      "__v": 0
+    },
+    {
+      "_id": "68845312392b02ba8fcefb74",
+      "key": "session_timeout",
+      "value": 24,
+      "type": "number",
+      "description": "Session timeout in hours",
+      "category": "security",
+      "createdAt": "2025-07-26T04:01:22.386Z",
+      "updatedAt": "2025-07-26T04:01:22.386Z",
+      "__v": 0
+    },
+    {
+      "_id": "68845312392b02ba8fcefb77",
+      "key": "password_min_length",
+      "value": 8,
+      "type": "number",
+      "description": "Minimum password length",
+      "category": "security",
+      "createdAt": "2025-07-26T04:01:22.390Z",
+      "updatedAt": "2025-07-26T04:01:22.390Z",
+      "__v": 0
+    },
+    {
+      "_id": "68845312392b02ba8fcefb7a",
+      "key": "require_email_verification",
+      "value": true,
+      "type": "boolean",
+      "description": "Require email verification",
+      "category": "security",
+      "createdAt": "2025-07-26T04:01:22.393Z",
+      "updatedAt": "2025-07-26T04:01:22.393Z",
+      "__v": 0
+    },
+    {
+      "_id": "68845312392b02ba8fcefb7d",
+      "key": "admin_notifications",
+      "value": true,
+      "type": "boolean",
+      "description": "Enable admin notifications",
+      "category": "notifications",
+      "createdAt": "2025-07-26T04:01:22.398Z",
+      "updatedAt": "2025-07-26T04:01:22.398Z",
+      "__v": 0
+    },
+    {
+      "_id": "68845312392b02ba8fcefb80",
+      "key": "order_notifications",
+      "value": true,
+      "type": "boolean",
+      "description": "Enable order notifications",
+      "category": "notifications",
+      "createdAt": "2025-07-26T04:01:22.401Z",
+      "updatedAt": "2025-07-26T04:01:22.401Z",
+      "__v": 0
+    },
+    {
+      "_id": "68845312392b02ba8fcefb83",
+      "key": "email_notifications",
+      "value": true,
+      "type": "boolean",
+      "description": "Enable email notifications",
+      "category": "notifications",
+      "createdAt": "2025-07-26T04:01:22.405Z",
+      "updatedAt": "2025-07-26T04:01:22.405Z",
+      "__v": 0
+    }
+  ]
+}
