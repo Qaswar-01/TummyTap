@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Generate PWA Icons</title>
+</head>
+<body>
+    <h1>PWA Icon Generator</h1>
+    <p>This page generates PWA icons from the SVG. Open browser dev tools and run the script below:</p>
+    
+    <canvas id="canvas" style="display: none;"></canvas>
+    
+    <script>
+        // Function to generate PNG icons from SVG
+        async function generateIcons() {
+            const sizes = [72, 96, 128, 144, 152, 192, 384, 512, 180]; // 180 for apple-touch-icon
+            const canvas = document.getElementById('canvas');
+            const ctx = canvas.getContext('2d');
+            
+            // SVG content
+            const svgContent = `
+                <svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="256" cy="256" r="256" fill="#f97316"/>
+                  <circle cx="256" cy="280" r="120" fill="#ffffff" stroke="#ea580c" stroke-width="8"/>
+                  <circle cx="230" cy="260" r="25" fill="#fbbf24"/>
+                  <circle cx="280" cy="270" r="20" fill="#ef4444"/>
+                  <circle cx="250" cy="300" r="18" fill="#22c55e"/>
+                  <path d="M200 180 Q205 160 200 140" stroke="#ffffff" stroke-width="6" stroke-linecap="round" fill="none"/>
+                  <path d="M230 170 Q235 150 230 130" stroke="#ffffff" stroke-width="6" stroke-linecap="round" fill="none"/>
+                  <path d="M280 170 Q285 150 280 130" stroke="#ffffff" stroke-width="6" stroke-linecap="round" fill="none"/>
+                  <path d="M310 180 Q315 160 310 140" stroke="#ffffff" stroke-width="6" stroke-linecap="round" fill="none"/>
+                  <rect x="150" y="350" width="8" height="80" fill="#ffffff" rx="4"/>
+                  <rect x="145" y="350" width="4" height="20" fill="#ffffff" rx="2"/>
+                  <rect x="151" y="350" width="4" height="20" fill="#ffffff" rx="2"/>
+                  <rect x="157" y="350" width="4" height="20" fill="#ffffff" rx="2"/>
+                  <rect x="350" y="370" width="8" height="60" fill="#ffffff" rx="4"/>
+                  <ellipse cx="354" cy="360" rx="12" ry="18" fill="#ffffff"/>
+                  <circle cx="180" cy="200" r="8" fill="#ffffff" opacity="0.7"/>
+                  <circle cx="330" cy="210" r="6" fill="#ffffff" opacity="0.7"/>
+                  <circle cx="160" cy="320" r="5" fill="#ffffff" opacity="0.7"/>
+                  <circle cx="350" cy="320" r="7" fill="#ffffff" opacity="0.7"/>
+                </svg>
+            `;
+            
+            for (const size of sizes) {
+                canvas.width = size;
+                canvas.height = size;
+                
+                const img = new Image();
+                const svgBlob = new Blob([svgContent], { type: 'image/svg+xml' });
+                const url = URL.createObjectURL(svgBlob);
+                
+                await new Promise((resolve) => {
+                    img.onload = () => {
+                        ctx.clearRect(0, 0, size, size);
+                        ctx.drawImage(img, 0, 0, size, size);
+                        
+                        canvas.toBlob((blob) => {
+                            const link = document.createElement('a');
+                            link.download = size === 180 ? 'apple-touch-icon.png' : `icon-${size}x${size}.png`;
+                            link.href = URL.createObjectURL(blob);
+                            link.click();
+                            resolve();
+                        }, 'image/png');
+                    };
+                    img.src = url;
+                });
+                
+                URL.revokeObjectURL(url);
+            }
+            
+            console.log('All icons generated!');
+        }
+        
+        // Auto-generate icons when page loads
+        window.addEventListener('load', () => {
+            console.log('Generating PWA icons...');
+            generateIcons();
+        });
+    </script>
+</body>
+</html>
